@@ -10,14 +10,10 @@ publish:
     mirror: https://n5fb0zgg.mirror.aliyuncs.com
 deploy:
   ssh:
-    host: staging.xiaolumm.com
-    user: root
-    commands:
-      - docker pull registry.aliyuncs.com/xiaolu-img/xiaolusys-oneapm
-      - docker rm -f oneapm-ci-agent
-      - docker run -d --name oneapm-ci-agent -p 192.168.0.1:8251:8251/udp -h `hostname` -v /var/run/docker.sock:/var/run/docker.sock -v /proc/:/host/proc/:ro -v /sys/fs/cgroup/:/host/sys/fs/cgroup:ro -e LICENSE_KEY=B1IBAw9WBlw3d25MHV9NVA0dXk9c0dYIXhkLUwFSF9118AEAFQlYHQIC8a10VQcYCFEdVg8= registry.aliyuncs.com/xiaolu-img/xiaolusys-oneapm
-  ssh:
-    host: sale.xiaolumm.com
+    host: 
+      - staging.xiaolumm.com
+      - sale.xiaolumm.com
+      - sale2.xiaolumm.com
     user: root
     commands:
       - docker pull registry.aliyuncs.com/xiaolu-img/xiaolusys-oneapm
