@@ -14,7 +14,6 @@ deploy:
       - staging.xiaolumm.com
       - sale.xiaolumm.com
       - sale2.xiaolumm.com
-      - sale3.xiaolumm.com
     user: root
     commands:
       - docker pull registry.aliyuncs.com/xiaolu-img/xiaolusys-oneapm
