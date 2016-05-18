@@ -1,9 +1,9 @@
 init_config:
 
 instances:
-  - server: jconnfymhz868.mysql.rds.aliyuncs.com
+  - server: rdsvrl2p9pu6536n7d99.mysql.rds.aliyuncs.com
     user: qiyue
-    pass: youni_2014qy
+    pass: youni_2016qy
     # port: 3306             # Optional
     # sock: /path/to/sock    # Connect via Unix Socket
     # defaults_file: my.cnf  # Alternate configuration mechanism
