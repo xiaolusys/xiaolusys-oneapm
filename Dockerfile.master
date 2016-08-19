@@ -1,5 +1,5 @@
 from oneapm/docker-oneapm-ci-agent:latest
-add oneapm-ci-agent.conf /etc/oneapm-ci-agent/oneapm-ci-agent.conf
-add nginx.yaml /etc/oneapm-ci-agent/conf.d/nginx.yaml
-add mysql.yaml /etc/oneapm-ci-agent/conf.d/mysql.yaml
-add redisdb.yaml /etc/oneapm-ci-agent/conf.d/redisdb.yaml
+add oneapm-ci-agent.conf /etc/cloudinsight-agent/cloudinsight-agent.conf
+add nginx.yaml /conf.d/nginx.yaml
+add mysql.yaml /conf.d/mysql.yaml
+add redisdb.yaml /conf.d/redisdb.yaml
