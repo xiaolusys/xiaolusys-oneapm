@@ -22,9 +22,25 @@ instances:
 
     # Check the length of these keys
     #
-    # keys:
-    #   - key1
-    #   - key2
+    keys:
+        - default
+        - notify
+        - peroid
+        - frency
+        - async
+        - apis
+        - mama
+        - activevalue
+        - mamafortune
+        - relationship
+        - carryrecord
+        - skustats
+        - coupon
+        - integral
+        - statistics
+        - logistics
+        - dinghuo
+        - carrytotal
 
     # Display a warning in the info page if the keys we're tracking are missing
     # Default: True
