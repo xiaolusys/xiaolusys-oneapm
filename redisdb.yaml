@@ -15,10 +15,9 @@ instances:
     # socket_timeout: 5
 
     # Optional extra tags added to all redis metrics
-    # tags:
-    #   - tag_key1:tag_value1
-    #   - tag_key2:tag_value2
-    #
+    tags:
+      - host:cache-redis
+    
 
     # Check the length of these keys
     #
@@ -49,10 +48,9 @@ instances:
     # socket_timeout: 5
 
     # Optional extra tags added to all redis metrics
-    # tags:
-    #   - tag_key1:tag_value1
-    #   - tag_key2:tag_value2
-    #
+    tags:
+      - host:celery-redis
+    
 
     # Check the length of these keys
     #
