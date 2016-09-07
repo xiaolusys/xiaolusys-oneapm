@@ -16,7 +16,7 @@ instances:
 
     # Optional extra tags added to all redis metrics
     tags:
-      - host:cache-redis
+      - server:cache-redis
     
 
     # Check the length of these keys
@@ -49,7 +49,7 @@ instances:
 
     # Optional extra tags added to all redis metrics
     tags:
-      - host:celery-redis
+      - server:celery-redis
     
 
     # Check the length of these keys
