@@ -22,7 +22,8 @@ deploy:
     host: 
       - staging.xiaolumm.com
       - sale2.xiaolumm.com
-      - sale3.xiaolumm.com 
+      - sale3.xiaolumm.com
+      - dev.xiaolumm.com 
     user: root
     commands:
       - docker pull registry.aliyuncs.com/xiaolu-img/xiaolusys-oneapm:slave
