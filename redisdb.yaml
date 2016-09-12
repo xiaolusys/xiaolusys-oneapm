@@ -37,6 +37,7 @@ instances:
         - logistics
         - dinghuo
         - carrytotal
+	- weixin
 
     # Check the length of these keys
     #
