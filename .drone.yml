@@ -23,6 +23,8 @@ deploy:
       - staging.xiaolumm.com
       - sale2.xiaolumm.com
       - sale3.xiaolumm.com
+      - sale4.xiaolumm.com
+      - sale5.xiaolumm.com
       - dev.xiaolumm.com 
     user: root
     commands:
