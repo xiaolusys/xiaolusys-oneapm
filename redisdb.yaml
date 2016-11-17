@@ -10,7 +10,7 @@ instances:
 
     # Addional connection options
     #
-    db: 8
+    db: 29
     password: 55a32ec47c8d41f7:Huyiinc12345
     # socket_timeout: 5
 
